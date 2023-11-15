@@ -4,6 +4,8 @@ import Business from "./Business";
 import Clients from "./Clients";
 import CTA from "./CTA";
 import FeedbackCard from "./FeedbackCard";
+import Domains from "./Domains";
+import Courses from "./Courses";
 import Hero from "./Hero";
 import Stats from "./Stats";
 import Testimonials from "./Testimonials";
@@ -14,6 +16,8 @@ import CardDeal from "./CardDeal";
 export {
     Navbar,
     Billing,
+    Domains
+    Courses
     Business,
     Button,
     Stats,

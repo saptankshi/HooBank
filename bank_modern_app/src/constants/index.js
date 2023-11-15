@@ -1,9 +1,9 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
-
+import { people01,shubham, microsoft, people02, people03,p1, p2, people04, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+// import { ai} from '../assets'
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Programs",
   },
   {
     id: "features",
@@ -11,11 +11,11 @@ export const navLinks = [
   },
   {
     id: "product",
-    title: "Product",
+    title: "Placements",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "About Us",
   },
 ];
 
@@ -47,27 +47,83 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
+      "  Tech professional with 5+ years of experience in full-stack development, data science, dev-ops, and AI, specializing in technology's impact on businesses and individuals.      ",
+    name: "Shubham Lal",
+    title: "Software Engineer",
+    img: shubham,
+    image: microsoft,
+  },
+  {
+    id: "feedback-2",
+    content:
+      "  Tech professional with 5+ years of experience in full-stack development, data science, dev-ops, and AI, specializing in technology's impact on businesses and individuals.      ",
+      name: "Shubham Lal",
+      title: "Software Engineer",
+      img: people02,
+      image: microsoft,
+
+  },
+  {
+    id: "feedback-3",
+    content:
+      "  Tech professional with 5+ years of experience in full-stack development, data science, dev-ops, and AI, specializing in technology's impact on businesses and individuals.      ",
+      name: "Shubham Lal",
+      title: "Software Engineer",
+      img: people03,
+      image: microsoft,
+
+  },
+];
+export const domains = [
+  {
+    id: "feedback-1",
+    content:
       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+    name: "Coding Saksham",
+    title: "Designed by Expert From",
+    img: people04,
+    image: people04,
+
+    backgroundColor: "#DFFFC4", 
+
   },
   {
     id: "feedback-2",
     content:
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+    name: "Ai Saksham",
+    title: "Designed by Expert From",
+    img: p1,
+    image: people04,
+
+    backgroundColor: "#F7DBFF",
+
   },
   {
     id: "feedback-3",
     content:
       "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+    name: "Robo Saksham",
+    title: "Designed by Expert From",
+    img: p2,
+    image: people04,
+
+    backgroundColor: "#95B8E5",
+
   },
+  {
+    id: "feedback-4",
+    content:
+      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+    name: "Ev Saksham",
+    title: "Designed by Expert From",
+    img: people04,
+    image: people04,
+
+    backgroundColor: "##f7dbff", 
+
+  },
+
 ];
 
 export const stats = [
@@ -93,65 +149,65 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Terms",
+        link: "https://capabl.in/terms-and-conditions",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "Privacy Policy",
+        link: "https://capabl.in/privacy-policy",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "Refund Policy",
+        link: "https://capabl.in/refund-policy",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: "Cookies",
+        link: "https://capabl.in/cookies",
       },
       {
-        name: "Terms & Services",
+        name: "Sitemap",
         link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
   },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
+  // {
+  //   title: "Community",
+  //   links: [
+  //     {
+  //       name: "Help Center",
+  //       link: "https://www.hoobank.com/help-center/",
+  //     },
+  //     {
+  //       name: "Partners",
+  //       link: "https://www.hoobank.com/partners/",
+  //     },
+  //     {
+  //       name: "Suggestions",
+  //       link: "https://www.hoobank.com/suggestions/",
+  //     },
+  //     {
+  //       name: "Blog",
+  //       link: "https://www.hoobank.com/blog/",
+  //     },
+  //     {
+  //       name: "Newsletters",
+  //       link: "https://www.hoobank.com/newsletters/",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Partner",
+  //   links: [
+  //     {
+  //       name: "Our Partner",
+  //       link: "https://www.hoobank.com/our-partner/",
+  //     },
+  //     {
+  //       name: "Become a Partner",
+  //       link: "https://www.hoobank.com/become-a-partner/",
+  //     },
+  //   ],
+  // },
 ];
 
 export const socialMedia = [

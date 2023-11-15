@@ -6,7 +6,7 @@ import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
-import robot from "./robot.png";
+import robot from "./robot1.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -23,6 +23,13 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import people04 from "./people04.png";
+import p1 from "./images/p1.png";
+import p2 from "./images/p2.png";
+import about from "./images/about.png";
+import shubham from "./images/shubham.jfif";
+import microsoft from "./images/microsoft1.png";
+
 
 export {
   airbnb,
@@ -35,6 +42,7 @@ export {
   quotes,
   robot,
   send,
+  
   shield,
   star,
   menu,
@@ -50,4 +58,10 @@ export {
   people01,
   people02,
   people03,
+  people04,
+  p1,
+  p2,
+  about,
+  shubham,
+  microsoft,
 };
